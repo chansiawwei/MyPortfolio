@@ -50,7 +50,12 @@ yarn@v1.21.1 or higher
 ```
 
 ---
+## DEPLOYMENT (FIREBASE)🚀
 
+Use Firebase to deploy
+1)install firebase cli
+2)firebase login
+3)firebase deploy
 ## How To Use 🔧
 
 From your command line, first clone Simplefolio:
