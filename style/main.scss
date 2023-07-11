@@ -21,27 +21,20 @@
 @import './skills-solar/skills';
 
 
-@media screen and (min-width: 1200px) {
-    .profile-pic {
-  height: 70%;
-  width: auto;
-  
-}
-.about-wrapper__info{
+@media screen and (min-width: 1000px) {
+  .profile-pic {
+    height: 70%;
+    width: auto;
+  }
+
+  .about-wrapper__info {
     padding-left: 20%;
+  }
 }
 
-}
+@media screen and (max-width: 1000px) {
 
-// .image-cropper {
-//     width: 100px;
-//     height: 100px;
-//     position: relative;
-//     overflow: hidden;
-//     border-radius: 50%;
-// }
-// .profile-pic {
-//   display: inline;
-//   height: 100%;
-//   width: auto;
-// }
+  .profile-pic {
+    display: none;
+  }
+}
